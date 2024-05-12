@@ -1,12 +1,5 @@
-const ArrowFunction =( x, n) => {
-    let result = x
-
-    for (let i = 1; i < n; i++) {
-        result *= x;
-    }
-
-    return result;
+const Arrow =( x, n) => {
+    console.log ( x ** n);   //Используется функция ArrowFunction
 }
 
-const result = ArrowFunction(4, 3)
-console.log(result)
+Arrow (6, 3);   // первая цифра "n" вторая цифра "n"
